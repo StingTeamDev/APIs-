@@ -3,7 +3,7 @@ const JSap = async function get() {
     .getElementsByTagName("head")[0]
     .insertAdjacentHTML(
       "beforeend",
-      '<link rel="stylesheet" href="https://cdn.statically.io/gh/StingTeamDev/APIs-/main/Table.css" />'
+      '<link rel="stylesheet" href="https://cdn.statically.io/gh/StingTeamDev/APIs-/main/TableMatchING.css" />'
     );
   const response = await fetch(
       "https://api.anubis-dev.com/TableMatchAuto/index.php?o=5"
